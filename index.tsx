@@ -1,16 +1,5 @@
-
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-
-const rootElement = document.getElementById('root');
-if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
-}
-
-const root = ReactDOM.createRoot(rootElement);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// Este arquivo não é mais o ponto de entrada da aplicação.
+// A aplicação foi convertida para um site estático (index.html) para ser compatível
+// com serviços de hospedagem como a Netlify (Drag and Drop).
+// O conteúdo que era renderizado por este script agora está diretamente em index.html.
+console.info("A aplicação agora é um site estático. Veja o arquivo index.html para o conteúdo.");
