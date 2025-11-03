@@ -2,7 +2,6 @@
 import React from 'react';
 
 const PrivacyPolicy: React.FC = () => {
-  const companyName = "[Nome da Sua Empresa/Aplicativo]";
   const companyEmail = "topfeminina2@gmail.com";
   const companyWebsite = "[www.seusite.com]";
   const lastUpdated = "24 de Julho de 2024";
@@ -23,7 +22,7 @@ const PrivacyPolicy: React.FC = () => {
 
           <section className="space-y-6 text-slate-700 leading-relaxed">
             <p>
-              A sua privacidade é importante para nós. É política do {companyName} respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site {companyWebsite}, e outros sites que possuímos e operamos.
+              A sua privacidade é importante para nós. Respeitamos a sua privacidade em relação a qualquer informação sua que possamos coletar no site {companyWebsite}, e outros sites que possuímos e operamos.
             </p>
             <p>
               Esta política de privacidade explica como coletamos, usamos, compartilhamos e protegemos suas informações pessoais quando você visita nosso site e utiliza nossos serviços, especialmente no contexto de campanhas publicitárias veiculadas através de plataformas como o Facebook Ads.
@@ -108,7 +107,6 @@ const PrivacyPolicy: React.FC = () => {
                 Se você tiver dúvidas ou comentários sobre esta Política de Privacidade, entre em contato conosco em:
               </p>
               <p className="font-medium text-slate-900">
-                {companyName} <br/>
                 <a href={`mailto:${companyEmail}`} className="text-blue-600 hover:underline">{companyEmail}</a>
               </p>
             </div>
